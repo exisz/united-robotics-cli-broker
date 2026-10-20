@@ -1,0 +1,25 @@
+{
+  "name": "@united-robotics/cli-broker",
+  "version": "0.1.0",
+  "description": "Project-scoped remote CLI client",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "ur": "bin/ur.mjs"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
